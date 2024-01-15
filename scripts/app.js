@@ -103,3 +103,20 @@ window.addEventListener('scroll', handleScroll);
 window.addEventListener('load', handleScroll); // Handle initial load
 
 handleScroll(); // Call it initially in case the section is already in view
+
+
+// Get the slide element
+const slide = document.getElementById('slide-one');
+
+// Set up the Intersection Observer
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            // Add the fade-in class when the slide is in view
+            entry.target.querySelector('.image-overlay').classList.add('fade-in');
+        }
+    });
+}, { threshold: 0.9 }); // Adjust the threshold as needed
+
+// Observe the slide
+observer.observe(slide);

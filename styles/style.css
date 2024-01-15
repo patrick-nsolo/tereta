@@ -59,6 +59,13 @@ body{
     padding: 100px;
     z-index:11;
 }
+.image-overlay{
+    opacity:0;
+    transition: opacity 0.5s ease-in-out;
+}
+.image-overlay.fade-in{
+    opacity: 1;
+}
 .first-slide{
     text-align: center;
 }
