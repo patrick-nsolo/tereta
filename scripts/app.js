@@ -105,8 +105,12 @@ window.addEventListener('load', handleScroll); // Handle initial load
 handleScroll(); // Call it initially in case the section is already in view
 
 
+
+
+
+//AUTOMATIC SLIDER TRANSITION SCRIPT START
 // Get the slide element
-const slide = document.getElementById('slide-one');
+const slideOne = document.getElementById('slide-one');
 
 // Set up the Intersection Observer
 const observer = new IntersectionObserver(entries => {
@@ -119,4 +123,40 @@ const observer = new IntersectionObserver(entries => {
 }, { threshold: 0.9 }); // Adjust the threshold as needed
 
 // Observe the slide
-observer.observe(slide);
+observer.observe(slideOne);
+
+// Get the slide element
+const slideTwo = document.getElementById('slide-two');
+
+// Set up the Intersection Observer
+const checker = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            // Add the fade-in class when the slide is in view
+            entry.target.querySelector('.image-overlay').classList.add('fade-in');
+        }
+    });
+}, { threshold: 0.9 }); // Adjust the threshold as needed
+
+// Observe the slide
+checker.observe(slideTwo);
+
+// Get the slide element
+const slideThree = document.getElementById('slide-three');
+
+// Set up the Intersection Observer
+const tester = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            // Add the fade-in class when the slide is in view
+            entry.target.querySelector('.image-overlay').classList.add('fade-in');
+        }
+    });
+}, { threshold: 0.9 }); // Adjust the threshold as needed
+
+// Observe the slide
+tester.observe(slideThree);
+
+
+
+//AUTOMATIC SLIDER TRANSITION SCRIPT END
