@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+img{
+    max-inline-size: 100%;
+    block-size: auto;/*means aspect ratio of images, will remain the same in any screen size*/
+}
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+:root{
+    --medicalgreen:rgb(155, 229, 170);
+    --medicalblue:rgb(32, 160, 216);
+    --deepmedicalblue:rgb(10, 52, 70);
+    --white:hsl(0, 0%, 100%);
+    --beige:hsl(60, 55%, 77%);
+    /*Other Color Variants*/
+    --darkred:hsl(10, 86%, 17%);
+    --black:hsl(0, 0%, 12%);
+    --grey:hsl(0, 0%, 94%);
+    --darkgrey:hsl(0, 0%, 24%);
+    --blue:rgb(29, 14, 126);
+    --coldblue:rgb(11, 1, 49);
+    --top-row-right:60px;
+}
+/*Desktop Styling*/
+/*LANDING PAGE STYLING*/
+/*.container{
+    width:100%;
+}*/
+.content .slides{
+    width:100%;
+
+}
+.content .slides::before{
+    content:"";
+    position: absolute;
+    width:100%;
+    height:600px;
+    background: rgba(0,0,0,0.5);
+    z-index:9;
+}
+.slides img{
+    width:100%;
+    height:600px;
+}
+.slides .image-overlay{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    padding: 100px;
+    z-index:11;
+}
+.first-slide{
+    text-align: center;
+}
+.image-overlay h1{
+    font-size: 3rem;
+    color: var(--white);
+}
+.image-overlay h2{
+    font-size: 1.5rem;
+    color: var(--white);
+}
+.image-overlay a{
+    text-decoration: none;
+    color: var(--white);
+    background: var(--darkred);
+    padding: 14px 32px;
+    display: inline-block;
+    margin-top: 1rem;
+    transition:0.5s ease-out;
+    border-radius: 25px;
+}
+.image-overlay a:hover{
+    background: var(--blue);
+}
+.swiper-btn{
+    background: rgba(0,0,0,0.7);
+    padding:2rem;
+    border-radius: 50%;
+}
+.swiper-btn::after{
+    font-weight: bolder;
+}

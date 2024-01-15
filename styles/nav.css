@@ -1,0 +1,108 @@
+/*NAVIGATION STARTS HERE. VANILLA JS*/
+
+header{
+    background-color:var(--darkred);
+}
+.logo{
+    height:100px;
+}
+.nav-item{
+    list-style:none;
+}
+.nav-link{
+    text-decoration: none;
+}
+.container{
+    width:90%;
+    margin: 0 auto;
+}
+.navbar{
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+}
+.nav-item a{
+    transition:0.5s ease-out;
+    color:var(--white);
+}
+.nav-item a:hover{
+    color:var(--beige);
+}
+.nav-item .button{
+    padding: 10px 20px;
+    background-color: var(--medicalblue);
+    text-decoration: none;
+    border: 0;
+    color:var(--white);
+}
+.nav-item .button:hover{
+    background-color: var(--blue);
+    color: var(--white);
+}
+.hamburger{
+    display:none;
+    cursor: pointer;
+}
+.bar{
+    display:block;
+    width: 25px;
+    height:3px;
+    margin:5px auto;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: var(--medicalblue);
+}
+
+@media(max-width:1250px){
+    .hamburger{
+        display:block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity:0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .menu{
+        position: fixed;
+        left:-100%;
+        top:105px;
+        gap:0;
+        flex-direction: column;
+        background-color: var(--medicalblue);
+        width: 100%;
+        text-align:center;
+        transition: 0.5s;
+        z-index: 12;
+    }
+    .nav-item a{
+        transition:0.5s ease-out;
+        color:var(--white);
+    }
+    .nav-item a:hover{
+        background: #ffffff ;
+    }
+    .nav-item{
+        margin: 16px 0;
+    }
+    .nav-item .button{
+        background-color: var(--deepmedicalblue);
+    }
+    .menu.active{
+        left:0;
+    }    
+}

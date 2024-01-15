@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/lofty-logo-mobile.png">
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
+    <link type="text/css" rel="stylesheet" href="styles/nav.css">
+    <link type="text/css" rel="stylesheet" href="styles/trans.css">
+    <link rel="stylesheet" href="boxicons-2.1.4/css/boxicons.min.css">
+    <title>Tereta Website</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" title="This link takes you to the home page">
+                    <!--<img class="logo" src="images/lofty-logo.png" alt="lofty-healthcare-logo">-->
+                    <h1>TERETA</h1>
+                </a>
+                <ul class="menu">
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="clients.html" class="nav-link">Our Clients</a></li>
+                    <li class="nav-item"><a href="service.html" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="team.html" class="nav-link">Our Team</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+                    <!--<li class="nav-item"><a href="https://loftyhealthcare.agencyportal.co.uk/candidate/login" class="btn nav-link button">Login</a></li> 
+                    <li class="nav-item"><a href="https://loftyhealthcare.agencyportal.co.uk/candidate/register" class="btn nav-link button reg-btn">Register</a></li>-->       
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header> 
+    <!--<hr class="line">-->                         
+    <main>
+        <div class="containers swiper mySwiper">
+            <div class="content swiper-wrapper">
+                <div class="slides swiper-slide">
+                    <img src="images/slide-one.jpg" alt="slide-one" >
+                    <div class="image-overlay first-slide">
+                        <h1>TERETA</h1>
+                        <h2>Fortifying Your Digital Frontiers.</h2>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="slides swiper-slide">
+                    <img src="images/slide-two.jpg" alt="slide-two">
+                    <div class="image-overlay">
+                        <h1>Where Innovation Meets Security.</h1>
+                        <h2>Safeguarding Your Digital Footprint, Today and Tomorrow</h2>
+                        <a href="about.html">Who We Are</a>
+                    </div>
+                </div>
+                <div class="slides swiper-slide">
+                    <img src="images/slide-three.jpg" alt="slide-three">
+                    <div class="image-overlay">
+                        <h1>Welcome to TERETA</h1>
+                        <h2>Empowering a Safer Digital Future.</h2>
+                        <a href="#">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next swiper-btn"></div>
+            <div class="swiper-button-prev swiper-btn"></div>
+            
+        </div>
+        <section id="about">
+            <div class="about">
+                <img src="images/docs.webp" alt="docs-in-attire"/>
+                <div class="about-text">
+                    <h2>About Us</h2>
+                    <p>
+                        We are a leading supplier of care and nursing staff to both the private and public sectors. 
+                        Lofty HealthCare has consistently outsourced professional, Trained, compliant and respected 
+                        staff to some of the UK’s leading care groups in which they provide outstanding care, 
+                        encourage independence, safe-guard and respect service users.
+                    </p>
+                    <a href="about.html">Read More</a>
+                </div>
+            </div>
+        </section>
+        <section id="why-us">
+            <div class="why-us-text">
+                <h2>Why Choose Lofty HealthCare?</h2>
+                <h3>We dont just help you on your career journey, We build lasting relationships.</h3>
+                <p>
+                    Our goal is to Connect excellent Social and Health Care workers with the best employers globally.
+                    We save employers the hassle of screening, training and developing employees for the market. 
+                </p>
+                <a href="https://loftyhealthcare.agencyportal.co.uk/candidate/register">Apply Now</a>
+            </div>        
+        </section>
+        <section id="career">
+            <div class="career-text">
+                <h2>Start your Lofty HealthCare Career Journey Now!</h2>
+                <p>
+                    Take the first step toward your new life and new career by completing 
+                    our online application form today.
+                </p>
+                <a href="https://loftyhealthcare.agencyportal.co.uk/candidate/register">Apply Now</a>
+            </div>        
+        </section> 
+        <section class="counter-container">
+            <img src="/images/folded-arms-with-steth.webp" alt="folded-arms-with-stethoscope"/>
+            <div class="counter-section">
+                <div class="counter-section-text">
+                    <h2>Get Started With Us</h2>
+                    <h3>Get the best health care jobs in the UK</h3>
+                    <p>Our clients are waiting for you</p>
+                </div>
+                <div class="card-counters">
+                    <div class="counter-card ">
+                        <span class="count" id="count1">0</span>%
+                        <p>Client Rating</p>
+                    </div>
+                    <div class="counter-card staff-count">
+                        <span class="count" id="count2">0</span>+
+                        <p>Staff Count</p>
+                    </div>
+                    <div class="counter-card">
+                        <span class="count" id="count3">0</span>+
+                        <p>Coverage Area</p>
+                    </div>
+                </div>
+                <div class="center-container">
+                    <div class="counter-buttons">
+                        <a href="https://loftyhealthcare.agencyportal.co.uk/candidate/register">Apply Now</a>
+                        <a href="about.html">About Us</a>
+                    </div>
+                </div>     
+            </div>
+        </section>
+    </main> 
+    <hr/>
+    <footer>
+        <div class="footer">
+            <div class="page-links">
+                <h5>Important Links</h5>
+                <ul class="footer-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="clients.html">Our Clients</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="https://loftyhealthcare.agencyportal.co.uk/candidate/login">Login</a></li>
+                    <li><a href="https://loftyhealthcare.agencyportal.co.uk/candidate/register">Register</a></li>
+                </ul>    
+            </div>
+            <div class="address-links">
+                <h5>Lofty Healthcare</h5>
+                <ul class="footer-nav">
+                    <li><i class="bx bx-home bx-sm"></i>Luton, England</li>
+                    <li><i class="bx bx-phone bx-sm"></i>01582858347, 07404650628</li>
+                    <li><i class="bx bx-envelope bx-sm"></i>info@loftyhealthcareltd.com</li>
+                    <li><i class="bx bx-time bx-sm"></i>24 hours</li>
+                </ul>    
+            </div>
+            <div class="social-media">
+                <h5>Social Media</h5>
+                <ul class="media">
+                    <li>
+                        <a href="https://instagram.com/loftyhealthcare?igshid=MzRlODBiNWFlZA==" target="blank">
+                            <i class="bx bxl-instagram bx-md"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://m.facebook.com/story.php?story_fbid=102372716276923&substory_index=558036149871185&id=100095125835267&mibextid=Nif5oz" target="blank">
+                            <i class="bx bxl-facebook bx-md"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="blank">
+                            <i class="bx bxl-twitter bx-md"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/+447404650628" target="blank">
+                            <i class="bx bxl-whatsapp bx-md"></i>
+                        </a>
+                    </li>
+                </ul>   
+            </div>
+            <div class="footer-right">
+                <a href="index.html"><img class="footer-logo" src="images/lofty-logo.png" alt="lofty-healthcare-logo"></a>
+                <a href="https://ico.org.uk/"><img class="ico-logo" src="images/ico.webp" alt="ico-logo"></a>
+            </div>
+        </div>   
+    </footer> 
+    <attribute class="attribute">
+        <p>&copy; 2023. Lofty HealthCare. All rights reserved.| Powered by <a class="aurora" href="https://www.auroradigitalsolutions.ng">Aurora Digital Solutions</a></p>
+    </attribute> 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="javascript/server.js"></script>
+    <script src="javascript/route.js"></script>
+</body>
+</html>
