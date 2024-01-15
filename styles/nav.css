@@ -84,7 +84,7 @@ header{
         top:105px;
         gap:0;
         flex-direction: column;
-        background-color: var(--medicalblue);
+        background-color: var(--darkred);
         width: 100%;
         text-align:center;
         transition: 0.5s;
@@ -101,7 +101,7 @@ header{
         margin: 16px 0;
     }
     .nav-item .button{
-        background-color: var(--deepmedicalblue);
+        background-color: var(--beige);
     }
     .menu.active{
         left:0;
