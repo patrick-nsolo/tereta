@@ -41,13 +41,14 @@ header{
 }
 .nav-item .button{
     padding: 10px 20px;
-    background-color: var(--medicalblue);
+    background-color: var(--beige);
     text-decoration: none;
     border: 0;
-    color:var(--white);
+    color:#000000;
+    border-radius: 25px;
 }
 .nav-item .button:hover{
-    background-color: var(--blue);
+    background-color: #000000;
     color: var(--white);
 }
 .hamburger{
