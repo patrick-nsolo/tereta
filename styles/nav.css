@@ -62,7 +62,7 @@ header{
     margin:5px auto;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    background-color: var(--medicalblue);
+    background-color: var(--white);
 }
 
 @media(max-width:1250px){
