@@ -4,7 +4,7 @@ header{
     background-color:var(--darkred);
 }
 .logo{
-    height:100px;
+    height:40px;
 }
 .nav-item{
     list-style:none;
