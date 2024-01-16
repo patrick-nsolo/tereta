@@ -222,9 +222,10 @@ footer{
     padding:50px 50px
 }
 .page-links h5, .address-links h5, .social-media h5{
-    font-size: 1.5rem;
+    font-size: 1rem;
     color:var(--white);
     font-weight: 100;
+    font-weight: bold;
 }
 .footer-nav, .media{
     list-style: none;
@@ -233,7 +234,7 @@ footer{
 .footer-nav li a, .footer-nav li{
     text-decoration: none;
     line-height: 35px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--white);
 }
 .footer-nav li a:hover, .media .bx:hover{
