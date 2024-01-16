@@ -210,7 +210,61 @@ body{
 
 
 
-
+footer{
+    height:400px;
+    margin-bottom:50px;
+    background-color: var(--darkred);
+}
+.footer{
+    display:flex;
+    justify-content:space-around;
+    padding:50px 50px
+}
+.page-links h5, .address-links h5, .social-media h5{
+    font-size: 1.5rem;
+    color:var(--white);
+}
+.footer-nav, .media{
+    list-style: none;
+    margin-top: 30px;
+}
+.footer-nav li a, .footer-nav li{
+    text-decoration: none;
+    line-height: 35px;
+    font-size: 1.2rem;
+    color: var(--white);
+}
+.footer-nav li a:hover, .media .bx:hover{
+    color: var(--beige);
+}
+.media{
+    display:flex;
+    justify-content: space-between;
+    gap:30px;
+}
+.media .bx{
+    color: var(--black);
+}
+.footer-logo{
+    width:300px;
+}
+.footer .footer-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-right .ico-logo{
+    width: 250px;
+    height: 250px;
+}
+.attribute{
+    height:200px;
+    text-align: center;
+    margin-top:50px;
+}
+.attribute a{
+    text-decoration: none;
+}
 
 
 
