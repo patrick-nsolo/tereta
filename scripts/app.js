@@ -98,7 +98,7 @@ function handleScroll() {
     });
 }
 
-const targetCounts = [10, 675, 987];
+const targetCounts = [10, 150, 400];
 window.addEventListener('scroll', handleScroll);
 window.addEventListener('load', handleScroll); // Handle initial load
 
