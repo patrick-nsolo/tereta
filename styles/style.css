@@ -265,6 +265,29 @@ footer{
     width: 250px;
     height: 250px;
 }
+
+.subscribe-form h2{
+    color:var(--white);
+    font-size: 1rem;
+}
+form{
+    margin-top: 20px;
+}
+input{
+    background-color: transparent;
+    border: 1px solid var(--white);
+    width:200px;
+    height:30px;
+}
+button{
+   background-color: var(--beige);
+   height: 30px;
+   width: 100px;
+   border: none;
+}
+
+
+
 .attribute{
     height:200px;
     text-align: center;

@@ -160,3 +160,9 @@ tester.observe(slideThree);
 
 
 //AUTOMATIC SLIDER TRANSITION SCRIPT END
+
+
+
+$("input").change(function(){
+    $(".animation").toggleClass("has-val");                       
+});
