@@ -214,6 +214,7 @@ footer{
     height:400px;
     margin-bottom:50px;
     background-color: var(--darkred);
+    
 }
 .footer{
     display:flex;
@@ -223,6 +224,7 @@ footer{
 .page-links h5, .address-links h5, .social-media h5{
     font-size: 1.5rem;
     color:var(--white);
+    font-weight: 100;
 }
 .footer-nav, .media{
     list-style: none;
@@ -243,7 +245,7 @@ footer{
     gap:30px;
 }
 .media .bx{
-    color: var(--black);
+    color: var(--white);
 }
 .footer-logo{
     width:300px;
