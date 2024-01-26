@@ -84,78 +84,11 @@ body{
     background-color: var(--black);
     color:var(--white)
 }
-.content .slides{
-    width:100%;
-
+.download-section{
+    position: relative;
+    background-color: var(--white);
+    padding: 50px;
 }
-.content .slides::before{
-    content:"";
-    position: absolute;
-    width:100%;
-    height:550px;
-    background: rgba(0,0,0,0.5);
-    z-index:9;
-}
-.slides img{
-    width:100%;
-    height:550px;
-}
-.slides .image-overlay{
-    position: absolute;
-    top: 20%;
-    width: 100%;
-    padding: 100px;
-    z-index:11;
-}
-.image-overlay{
-    opacity:0;
-    transition: opacity 0.5s ease-in-out;
-}
-.image-overlay.fade-in{
-    opacity: 1;
-}
-.first-slide{
-    text-align: center;
-}
-.light{
-    font-weight:lighter;
-}
-.image-overlay h1{
-    font-size: 3rem;
-    color: var(--white);
-}
-.image-overlay h2{
-    font-size: 1.5rem;
-    color: var(--white);
-}
-.image-overlay p{
-    font-size: 1rem;
-    color: var(--white);
-    margin-top: 10px;
-}
-.image-overlay a{
-    text-decoration: none;
-    color: var(--white);
-    background: var(--darkred);
-    padding: 14px 32px;
-    display: inline-block;
-    margin-top: 1rem;
-    transition:0.5s ease-out;
-    border-radius: 25px;
-}
-.image-overlay a:hover{
-    background: var(--blue);
-}
-.swiper-btn{
-    background: rgba(0,0,0,0.7);
-    padding:2rem;
-    border-radius: 50%;
-}
-.swiper-btn::after{
-    font-weight: bolder;
-    color: var(--darkred);
-}
-
 
 
 #services{
