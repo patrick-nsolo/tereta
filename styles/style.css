@@ -41,9 +41,48 @@ body{
 }
 .hero-text{
     position:relative;
+    top:150px;
+    left:15%;
+    padding: 50px;
+    color:var(--white)
+}
+.hero-text h1{
+    font-size: 3rem;
+    font-weight: 200;
+}
+.hero-text h2{
+    font-size: 1.2rem;
+    font-weight: 200;  
+    margin-top: 20px; 
+}
+.beige{
+    color:var(--beige);
 }
 .overlay{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
+    width:35%;
+    height: 400px;
+}
+.hero-btns{
+    margin-top: 60px;
+    
+}
+.demo-btn{
+    color: var(--white);
+}
+.demo-btn:hover{
+    color:var(--beige);
+}
+.btn{
+    text-decoration: none;
+    background-color: var(--beige);
+    padding:15px;
+    border-radius: 25px;
+    color:var(--black)
+}
+.btn:hover{
+    background-color: var(--black);
+    color:var(--white)
 }
 .content .slides{
     width:100%;
