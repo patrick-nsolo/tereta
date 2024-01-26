@@ -36,6 +36,15 @@ body{
 /*.container{
     width:100%;
 }*/
+.hero-image{
+    position: absolute;
+}
+.hero-text{
+    position:relative;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+}
 .content .slides{
     width:100%;
 
