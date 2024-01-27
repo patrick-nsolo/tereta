@@ -62,6 +62,7 @@ body{
     background-color: rgba(0, 0, 0, 0.7);
     width:35%;
     height: 400px;
+    border-radius: 8px;
 }
 .hero-btns{
     margin-top: 60px;
@@ -86,8 +87,12 @@ body{
 }
 .download-section{
     position: relative;
-    background-color: var(--white);
+    background-color: var(--grey);
     padding: 50px;
+    top:200px;
+    left:15%;
+    width:70%;
+    border-radius: 8px;
 }
 
 
