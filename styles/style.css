@@ -101,7 +101,12 @@ body{
     align-items: center;
     gap:50px;
 }
-
+.download-text h2{
+    font-size: 1rem;
+}
+.download-text h3{
+    font-size: 2.5rem;
+}
 .download-img img{
     height:150px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
