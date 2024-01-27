@@ -65,8 +65,11 @@ body{
     border-radius: 8px;
 }
 .hero-btns{
-    margin-top: 60px;
-    
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    flex-direction: row;
 }
 .demo-btn{
     color: var(--white);
@@ -96,9 +99,12 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
+    gap:50px;
 }
+
 .download-img img{
     height:150px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 
