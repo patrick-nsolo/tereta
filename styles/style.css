@@ -103,9 +103,18 @@ body{
 }
 .download-text h2{
     font-size: 1rem;
+    color: var(--darkred);
 }
 .download-text h3{
     font-size: 2.5rem;
+    margin-top: 10px;
+}
+.download-text h4{
+    margin-top: 20px;
+    line-height: 30px;
+}
+.download-btn{
+    margin-top: 20px;
 }
 .download-img img{
     height:150px;
