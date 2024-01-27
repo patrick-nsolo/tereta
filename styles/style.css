@@ -93,6 +93,12 @@ body{
     left:15%;
     width:70%;
     border-radius: 8px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.download-img img{
+    height:150px;
 }
 
 
