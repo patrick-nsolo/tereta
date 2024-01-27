@@ -115,6 +115,7 @@ body{
 }
 .download-btn{
     margin-top: 20px;
+    font-size: 2.5rem;
 }
 .download-img img{
     height:150px;
