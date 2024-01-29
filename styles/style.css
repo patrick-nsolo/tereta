@@ -370,6 +370,7 @@ button{
     .download-section{
         flex-direction: column;
         width:300px;
+        left:10%;
     }
     .download-text h2{
         font-size: 0.8rem;
@@ -384,8 +385,8 @@ button{
     }
     .capabilities{
         position: absolute;
-        top:1500px;
-        left: 22%;
+        top:1450px;
+        left: 0;
         text-align: center;
     }
     .capabilities h3{
@@ -400,15 +401,23 @@ button{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        margin-top: 1500px;
+        margin-top: 1640px;
         margin-bottom: 100px;
         padding: 0;
+    }
+    .counter-container img{
+        padding: 20px;
+    }
+    .counter-section{
+        padding:20px;
+        margin-left: 20px;
     }
     .card-counters{
         flex-direction: column;
     }
     #slogan{
         padding:0;
+        line-height: 30px;
     }
     #slogan h2{
         font-size: 1.4rem;
@@ -419,6 +428,18 @@ button{
     }
     .footer{
         flex-direction: column;
+    }
+    .capabilities h2{
+        margin: 0;
+    }
+    .capabilities h3{
+        padding:40px;
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    .counter-container{
+
     }
     
 }
