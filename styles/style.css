@@ -164,7 +164,6 @@ body{
     font-weight: 300;
     margin-top: 15px;
 }
-
 #slogan{
     background-image: url(/images/service-img.jpg);
     background-size: cover;
@@ -340,6 +339,88 @@ button{
 }
 .attribute a{
     text-decoration: none;
+}
+@media (max-width:800px){
+    .hero-image img{
+        height: 500px;
+    }
+    .hero-text{
+        position:relative;
+        top:50px;
+        left:10%;
+        padding: 50px;
+        color:var(--white);
+        width: 300px;
+    }
+    .hero-text h1{
+        font-size: 1.7rem;
+        font-weight: 200;
+        line-height: 35px;
+    }
+    .hero-text h2{
+        font-size: 1rem;
+        font-weight: 200;  
+        margin-top: 20px; 
+        line-height: 20px;
+    }
+    .hero-btns{
+        flex-direction: column;
+        margin-top:20px;
+    }
+    .download-section{
+        flex-direction: column;
+        width:300px;
+    }
+    .download-text h2{
+        font-size: 0.8rem;
+    }
+    .download-text h3{
+        font-size: 2rem;
+        padding: 0;
+        left:0;
+    }
+    .download-img img{
+        height:200px;
+    }
+    .capabilities{
+        position: absolute;
+        top:1500px;
+        left: 22%;
+        text-align: center;
+    }
+    .capabilities h3{
+        font-size: 1rem;
+        font-weight: 300;
+        color:var(--darkred);
+    }
+    .services{
+        flex-direction: column;
+    }
+    .counter-container{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 1500px;
+        margin-bottom: 100px;
+        padding: 0;
+    }
+    .card-counters{
+        flex-direction: column;
+    }
+    #slogan{
+        padding:0;
+    }
+    #slogan h2{
+        font-size: 1.4rem;
+        padding: 0;
+    }
+    footer{
+        height:800px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    
 }
 
 
