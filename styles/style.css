@@ -124,6 +124,21 @@ body{
     height:150px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.capabilities{
+    position: absolute;
+    top:1100px;
+    left: 15%;
+    text-align: center;
+}
+.capabilities h2{
+    font-size: 1rem;
+    font-weight: 300;
+    color:var(--darkred);
+}
+.capabilities h3{
+    margin-top: 20px;
+    font-size: 2rem;
+}
 
 
 #services{
