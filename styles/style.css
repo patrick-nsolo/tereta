@@ -150,6 +150,11 @@ body{
 .service-imgs{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding:30px;
+    transition: transform 0.3s ease-in-out;
+}
+.service-imgs:hover{
+    transform: translateY(-10px);
+    cursor:pointer;
 }
 .service-imgs img{
     width:100px;
@@ -160,46 +165,39 @@ body{
     margin-top: 15px;
 }
 
-#services{
+#slogan{
     background-image: url(/images/service-img.jpg);
     background-size: cover;
     color:#fff;
     height:500px;
     padding: 50px 150px;
-}
-.services{
-    text-align: center;
-}
-.services h3{
-    margin-top: 20px;
-
-}
-.cards{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:100px;
 }
-.card{
-    border:1px solid #fff;
-    border-radius:50px;
-    padding: 50px ;
-    width:300px;
-    height: 300px;
-    margin-top: 30px;
+#slogan h2{
+    font-size: 4rem;
+    font-weight: 400;
 }
-.card p{
-    margin-top:20px;
+.slogan-btn .demo-btn{
+    text-decoration: none;
+    background-color: var(--white);
+    padding:15px;
+    border-radius: 25px;
+    color:var(--black);
+    transition: transform .2s;
 }
-
-
-
-
-
-
-
-
-
+.slogan-btn .demo-btn:hover{
+    color:var(--beige);
+    background-color: var(--black);
+    width:60px;
+    height:60px;
+    transform: scale(1.5);
+}
+.slogan-btn {
+    margin-top: 25px;
+}
 .counter-container{
     display: flex;
     justify-content: space-around;
@@ -263,15 +261,10 @@ body{
     font-weight: 100;
     margin-top: 10px;
 }
-
-
-
-
 footer{
     height:400px;
     margin-bottom:50px;
     background-color: var(--darkred);
-    
 }
 .footer{
     display:flex;
@@ -282,14 +275,14 @@ footer{
     margin-top: 20px;
 }
 .page-links h5, .address-links h5, .social-media h5{
-    font-size: 1rem;
+    font-size: 1.3rem;
     color:var(--white);
-    font-weight: 100;
-    font-weight: bold;
+    font-weight: 600;
 }
 .footer-nav, .media{
     list-style: none;
     margin-top: 30px;
+    font-weight: 200;
 }
 .footer-nav li a, .footer-nav li{
     text-decoration: none;
@@ -320,10 +313,10 @@ footer{
     width: 250px;
     height: 250px;
 }
-
 .subscribe-form h2{
     color:var(--white);
-    font-size: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 form{
     margin-top: 20px;
@@ -340,9 +333,6 @@ button{
    width: 100px;
    border: none;
 }
-
-
-
 .attribute{
     height:200px;
     text-align: center;
