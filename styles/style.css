@@ -145,6 +145,7 @@ body{
     justify-content: center;
     align-items: center;
     gap:50px;
+    margin-top: 30px;
 }
 .service-imgs{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -152,6 +153,11 @@ body{
 }
 .service-imgs img{
     width:100px;
+    font-weight: 200;
+}
+.service-imgs h4{
+    font-weight: 300;
+    margin-top: 15px;
 }
 
 #services{
@@ -199,7 +205,7 @@ body{
     justify-content: space-around;
     align-items: center;
     gap: 50px;
-    margin-top: 100px;
+    margin-top: 700px;
     margin-bottom: 100px;
     padding: 50px 100px;
 }
@@ -220,6 +226,7 @@ body{
 .counter-section-text h2{
     font-size: 2rem;
     color: var(--darkred);
+    font-weight: 300;
 }
 .counter-section-text h3{
     font-size: 2.5rem;
@@ -234,6 +241,7 @@ body{
     justify-content: left;
     gap: 40px;
     padding: 20px;
+    margin-left: -20px;
 }
 .counter-card{
     background-color: var(--darkred);
@@ -246,11 +254,14 @@ body{
     padding: 20px;
     border: 1px solid #ccc;
 }
-
 .count {
     font-size: 2rem;
     font-weight: bold;
     color : var(--white);
+}
+.counter-card p{
+    font-weight: 100;
+    margin-top: 10px;
 }
 
 
