@@ -112,6 +112,7 @@ body{
 .download-text h4{
     margin-top: 20px;
     line-height: 30px;
+    font-weight: 300;
 }
 .download-btn{
     margin-top: 20px;
@@ -139,7 +140,11 @@ body{
     margin-top: 20px;
     font-size: 2rem;
 }
-
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 #services{
     background-image: url(/images/service-img.jpg);
