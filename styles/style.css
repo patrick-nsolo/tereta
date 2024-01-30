@@ -33,9 +33,6 @@ body{
 }
 /*Desktop Styling*/
 /*LANDING PAGE STYLING*/
-/*.container{
-    width:100%;
-}*/
 .hero-image{
     position: absolute;
 }
@@ -152,6 +149,10 @@ body{
     padding:30px;
     transition: transform 0.3s ease-in-out;
 }
+.service-imgs a{
+    text-decoration: none;
+    color: var(--black);
+}
 .service-imgs:hover{
     transform: translateY(-10px);
     cursor:pointer;
@@ -210,16 +211,6 @@ body{
     width: 500px;
     border-radius: 30px;
 }
-/*.counter-section a{
-    text-decoration: none;
-    color: var(--white);
-    background: var(--medicalblue);
-    padding: 14px 32px;
-    display: inline-block;
-    margin-top: 1rem;
-    transition:0.5s ease-out;
-    margin-top: 40px;
-}*/
 .counter-section-text h2{
     font-size: 2rem;
     color: var(--darkred);
@@ -439,10 +430,15 @@ button{
         font-size: 1.5rem;
         margin: 0;
     }
-    .counter-container{
+}
+/*LANDING PAGE STYLING END*/
 
-    }
-    
+/*CSG STYLING*/
+.csg{
+    background-image: url(/images/Artboard\ 1.png);
+    background-size: cover;
+    height:400px;
+    color:var(--white);
 }
 
 
