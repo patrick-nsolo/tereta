@@ -439,12 +439,25 @@ button{
     background-size: cover;
     height:400px;
     color:var(--beige);
+    padding: 100px;
     
 }
 .csg h3{
     color: var(--white);
     font-size: 2rem;
-    text-align: left;
+    line-height: 45px;
+}
+.csg-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    margin-top: 30px;
+    
+}
+.csg h2{
+    margin-left: 95px;
+    font-weight: 300;
 }
 
 
