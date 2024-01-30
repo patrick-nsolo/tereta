@@ -438,7 +438,13 @@ button{
     background-image: url(/images/Artboard\ 1.png);
     background-size: cover;
     height:400px;
-    color:var(--white);
+    color:var(--beige);
+    
+}
+.csg h3{
+    color: var(--white);
+    font-size: 2rem;
+    text-align: left;
 }
 
 
