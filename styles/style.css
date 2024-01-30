@@ -333,9 +333,10 @@ button{
    border: none;
 }
 .attribute{
-    height:200px;
-    text-align: center;
-    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
 }
 .attribute a{
     text-decoration: none;
