@@ -459,6 +459,44 @@ button{
     margin-left: 95px;
     font-weight: 300;
 }
+.csg-2{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    height:650px;
+    padding: 100px 100px;
+}
+.csg-2-title h2{
+    font-size: 3rem;
+    font-weight: 300;
+    color:var(--darkred)
+}
+.csg-2-title h3{
+    font-weight:700;
+    color: var(--darkgrey);
+    margin-top: 20px;
+}
+.csg-2-title p{
+    margin-top: 20px;
+    font-size: 1.3rem;
+    width: 500px;
+    font-weight: 100;
+}
+.seperator{
+    background-color: var(--darkred);
+    height:200px;
+    width:3px;
+}
+.csg-2-tag{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+}
+.csg-2-tag h2{
+    width:300px;
+    font-style: italic;
+    font-size: 2rem;
+}
 
 
 
