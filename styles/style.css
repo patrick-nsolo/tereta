@@ -497,7 +497,20 @@ button{
     font-style: italic;
     font-size: 2rem;
 }
-
+.csg-3-img{
+    position: absolute;
+    
+}
+.csg-3-2{
+    position: relative;
+    color: var(--black)
+    z-index: 1000;
+}
+.top-cards{
+    display:flex;
+    justify-content: center;
+    background-color: var(--white);
+}
 
 
 
