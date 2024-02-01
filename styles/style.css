@@ -509,7 +509,19 @@ button{
 .top-cards{
     display:flex;
     justify-content: center;
+    gap:50px;
+}
+.bottom-cards{
+    display:flex;
+    justify-content: center;
+    gap:50px;
+    margin-top: 30px;
+}
+.csg-3-card{
     background-color: var(--white);
+    gap:70px;
+    height:400px;
+    width:300px;
 }
 
 
