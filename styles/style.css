@@ -503,8 +503,12 @@ button{
 }
 .csg-3-2{
     position: relative;
-    color: var(--black)
+    color: var(--black);
     z-index: 1000;
+    padding: 70px;
+}
+.csg-3-2 h2{
+    color: var(--white);
 }
 .top-cards{
     display:flex;
