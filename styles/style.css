@@ -508,7 +508,7 @@ button{
 }
 .csg-3-2{
     position: absolute;
-    top: 5%;
+    top: 3%;
     left: 0;
     width: 100%; /* Make sure it takes the full width of the container */
     box-sizing: border-box; 
