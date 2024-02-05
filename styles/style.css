@@ -497,37 +497,61 @@ button{
     font-style: italic;
     font-size: 2rem;
 }
-.csg-3-img{
-    position: absolute;
-    
+.csg-3{
+    position: relative;
+}
+.csg-3-2-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
 }
 .csg-3-2{
-    position: relative;
-    color: var(--black);
-    z-index: 1000;
-    padding: 70px;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: 100%; /* Make sure it takes the full width of the container */
+    box-sizing: border-box; 
 }
 .csg-3-2 h2{
     color: var(--white);
+}
+.csg-3-img img{
+    
 }
 .top-cards{
     display:flex;
     justify-content: center;
     gap:50px;
+    margin-top: 60px;
+    
 }
 .bottom-cards{
     display:flex;
     justify-content: center;
     gap:50px;
-    margin-top: 30px;
+    margin-top: 60px;
+}
+.csg-3-cards{
+    
+    
 }
 .csg-3-card{
     background-color: var(--white);
     gap:70px;
-    height:400px;
+    height:300px;
     width:300px;
+    padding:40px;
 }
-
+.csg-3-card h3{
+    margin-top: 30px;
+}
+.csg-3-card p{
+    margin-top: 30px;
+}
+.bx{
+    font-size: 3rem;
+}
 
 
 
