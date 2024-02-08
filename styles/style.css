@@ -440,9 +440,8 @@ button{
     height:400px;
     color:var(--beige);
     padding: 100px;
-    
 }
-.csg h3{
+.csg-head h3{
     color: var(--white);
     font-size: 2rem;
     line-height: 45px;
@@ -516,15 +515,12 @@ button{
 .csg-3-2 h2{
     color: var(--white);
 }
-.csg-3-img img{
-    
-}
+
 .top-cards{
     display:flex;
     justify-content: center;
     gap:50px;
     margin-top: 60px;
-    
 }
 .bottom-cards{
     display:flex;
@@ -552,7 +548,50 @@ button{
 .bx{
     font-size: 3rem;
 }
-
+@media (max-width:800px){
+    .csg{
+        padding:50px;
+    }
+    .csg-head{
+        flex-direction: column;
+    }
+    .csg h2{
+        margin: 0;
+        font-weight: 300;
+    }
+    .csg-head h3{
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+    .btn-position{
+        margin: -40px;
+    }
+    .csg-2{
+        flex-direction: column;
+        height:900px;
+        padding: 0;
+    }
+    .csg-2-title{
+        padding:20px;
+        margin-top: 150px;
+    }
+    .csg-2-title p{
+        width:350px;
+    }
+    .csg-2-tag{
+        margin-top: -50px;
+    }
+    .csg-3{
+        margin-top: 150px;
+    }
+    .csg-3-img img{
+        height: 800px;
+        width:auto;
+    }
+    .top-cards, .bottom-cards{
+        flex-direction: column;
+    }
+}
 
 
 
