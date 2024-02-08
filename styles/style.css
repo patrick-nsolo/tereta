@@ -515,7 +515,6 @@ button{
 .csg-3-2 h2{
     color: var(--white);
 }
-
 .top-cards{
     display:flex;
     justify-content: center;
@@ -585,11 +584,15 @@ button{
         margin-top: 150px;
     }
     .csg-3-img img{
-        height: 800px;
-        width:auto;
+        height:1000px;
+    }
+    .csg-3-2-title h2{
+        text-align: center;
+        margin-top: -50px;
     }
     .top-cards, .bottom-cards{
         flex-direction: column;
+        padding: 40px;
     }
 }
 
