@@ -584,15 +584,21 @@ button{
         margin-top: 150px;
     }
     .csg-3-img img{
-        height:1000px;
+        height:2000px;
     }
     .csg-3-2-title h2{
         text-align: center;
         margin-top: -50px;
     }
-    .top-cards, .bottom-cards{
+    .top-cards{
         flex-direction: column;
         padding: 40px;
+        margin-top: 10px;
+    }
+    .bottom-cards{
+        flex-direction: column;
+        padding: 40px;
+        margin-top: 0;
     }
 }
 
